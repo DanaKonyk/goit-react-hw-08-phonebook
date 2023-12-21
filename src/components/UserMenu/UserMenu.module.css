@@ -1,8 +1,17 @@
-.item {
+.box {
     display: flex;
-    gap: 30px;
-    justify-content: space-between;
-    font-size: 17px;
+    align-items: center;
+    gap: 10px;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 700;
+
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .button {
